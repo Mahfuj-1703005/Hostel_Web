@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.full-page {
+    height: 100%;
+	width: 100%;
+    background-color: black;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+nav ul li button {
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+nav ul li button:hover {
+    color: #fb2525;
+}
+nav ul li a:hover {
+    color: #fb2525;
+}
+.sitename {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+.loginbox
+{
+    background: white;
+    color: black;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding: 30px;
+    vertical-align: middle;
+}
+.formgrid {
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 180px;
+}
+
+h1 {
+    text-align: center;
+    padding: 0 0 20px;
+    margin-bottom: 8px;
+}
+p, label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    margin-top: 8px;
+}
+input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+input[type=submit] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition: background-color 0.15s;
+}
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #fb2525;
+}
+.loginbox a, 
+.signupbox a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+}
+.loginbox a:hover{
+    text-decoration: underline;
+}
+.signupbox a:hover {
+    text-decoration: underline;
+}
+.signupbox {
+    width: 800px;
+    background: white;
+    color: black;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding: 30px;
+    vertical-align: middle;
+    margin-left: 350px;
+}
+select {
+    border-radius: 4px;
+    font-size: 14px;
+    width: 150px;
+    margin: 20px;
+    align-items: center;
+}
+.hostel_table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 20px;
+    width:100%;
+}
+.hostel_table th{
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 15px;
+}
+.hostel_table tr,
+.hostel_table td{
+    color: white;
+    padding: 30px 25px;
+    text-align: left;
+}
